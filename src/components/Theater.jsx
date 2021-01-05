@@ -3,7 +3,8 @@ import './Theater.scss';
 import MapImage from '../assets/conference-map.svg';
 import TableConfig from './tableConfig.json';
 
-const Theater: React.FC = () => {
+
+const Theater = () => {
   const firstTable = TableConfig.tables[0];
 
   return ( 
